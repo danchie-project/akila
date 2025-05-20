@@ -1,0 +1,39 @@
+html,
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+:root {
+  /* font sizes */
+  --text-sm: clamp(10px, 0.9375vw, 18px);
+  --text-base: clamp(14px, 1.1vw, 22px);
+  --text-md: clamp(14px, 1.4vw, 27px);
+  --text-lg: clamp(16px, 1.7vw, 34px);
+  --text-xl: clamp(32px, 1.8vw, 36px);
+  --text-2xl: clamp(32px, 2.3vw, 46px);
+  --text-3xl: clamp(32px, 3.6vw, 70px);
+
+  /* colors */
+  --cream: #f6f1e9;
+  --black: #1a1c20;
+  --orange: #ff570c;
+  --gray-light: #c5c5c5;
+  --gray-extra-light: #f3f0f2;
+  --gray: #898989;
+  --white: #ffffff;
+  --white-dark: #f8f8f8;
+
+  /* font weight */
+  --font-extralight: 200;
+  --font-light: 300;
+  --font-regular: 400;
+  --font-medium: 500;
+  --font-semibold: 600;
+  --font-bold: 700;
+  --font-extrabold: 800;
+  --font-black: 900;
+
+  /* font family */
+  --inter: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
