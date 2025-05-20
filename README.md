@@ -20,13 +20,13 @@ This project is using Block Element Modifier (BEM) naming convention for the CSS
     <div class="nav__container">
         <ul class="nav__list">
             <li class="nav__item">
-            <a href="#" class="nav__link">Home</a>
+                <a href="#" class="nav__link">Home</a>
             </li>
             <li class="nav__item nav__item--active">
-            <a href="#" class="nav__link">About</a>
+                <a href="#" class="nav__link">About</a>
             </li>
             <li class="nav__item">
-            <a href="#" class="nav__link">Contact</a>
+                <a href="#" class="nav__link">Contact</a>
             </li>
         </ul>
     </div>
