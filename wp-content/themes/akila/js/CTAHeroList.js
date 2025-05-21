@@ -1,18 +1,32 @@
-// Array of left section items
+// Object mapping items to their respective images
+const images = {
+    'R&D center': '<?php echo get_template_directory_uri(); ?>/assets/images/card1.png',
+    'Logistic Hub': '<?php echo get_template_directory_uri(); ?>/assets/images/card2.png',
+    'Factory A': '<?php echo get_template_directory_uri(); ?>/assets/images/card3.png',
+    'Factory B': '<?php echo get_template_directory_uri(); ?>/assets/images/card4.png',
+    'Monitoring': '<?php echo get_template_directory_uri(); ?>/assets/images/card5.png',
+    'HVAC Optimization': '<?php echo get_template_directory_uri(); ?>/assets/images/card6.png',
+    'Portfolio Analytics': '<?php echo get_template_directory_uri(); ?>/assets/images/card7.png',
+    'Predictive Maintenance': '<?php echo get_template_directory_uri(); ?>/assets/images/card8.png',
+    'System Automation': '<?php echo get_template_directory_uri(); ?>/assets/images/card9.png'
+};
+
+// Array of left section items (4 max)
 const leftItems = [
     'R&D center',
     'Logistic Hub',
     'Factory A',
-    'Factory B'
+    'Factory B',
 ];
 
-// Array of right section items
+// Array of right section items (6 max)
 const rightItems = [
     'Monitoring',
     'HVAC Optimization',
     'Portfolio Analytics',
     'Predictive Maintenance',
-    'System Automation'
+    'System Automation',
+    'R&D center'
 ];
 
 // Function to populate the lists
@@ -21,15 +35,60 @@ function populateList(containerId, items) {
     items.forEach(item => {
         const listItem = document.createElement('div');
         listItem.className = 'cta__hero__list';
-        
+
+        // Create paragraph
         const paragraph = document.createElement('p');
         paragraph.textContent = item;
-        
         listItem.appendChild(paragraph);
+
+        // Add click event to show specific image
+        listItem.addEventListener('click', function() {
+            const imageContainer = document.getElementById('imageContainer');
+            const displayedImage = document.getElementById('displayedImage');
+            displayedImage.src = images[item]; // Set image source based on item clicked
+            imageContainer.style.display = 'block'; // Show image
+        });
+
         container.appendChild(listItem);
     });
+}
+
+// Scroll functionality
+function scrollList(containerId, direction) {
+    const container = document.getElementById(containerId);
+    const scrollAmount = 50; // Adjust this value to change scroll distance
+
+    if (direction === 'up') {
+        container.scrollBy({
+            top: -scrollAmount,
+            behavior: 'smooth'
+        });
+    } else if (direction === 'down') {
+        container.scrollBy({
+            top: scrollAmount,
+            behavior: 'smooth'
+        });
+    }
 }
 
 // Populate both lists
 populateList('ctaHeroLeft', leftItems);
 populateList('ctaHeroRight', rightItems);
+
+// Add event listeners to chevrons for the left container
+document.querySelector('.cta__hero__left__container .chevron-up').addEventListener('click', () => {
+    scrollList('ctaHeroLeft', 'up'); // Scroll up for left container
+});
+
+document.querySelector('.cta__hero__left__container .chevron-down').addEventListener('click', () => {
+    scrollList('ctaHeroLeft', 'down'); // Scroll down for left container
+});
+
+// Add event listeners to chevrons for the right container
+document.querySelector('.cta__hero__right__container .chevron-up').addEventListener('click', () => {
+    scrollList('ctaHeroRight', 'up'); // Scroll up for right container
+});
+
+document.querySelector('.cta__hero__right__container .chevron-down').addEventListener('click', () => {
+    scrollList('ctaHeroRight', 'down'); // Scroll down for right container
+});

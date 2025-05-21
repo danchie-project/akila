@@ -16,7 +16,8 @@ body {
   /* colors */
   --cream: #f6f1e9;
   --black: #1a1c20;
-  --orange: #ff570c;
+  --dark: #1E2856;
+  --main: #385AEA;
   --gray-light: #c5c5c5;
   --gray-extra-light: #f3f0f2;
   --gray: #898989;
@@ -31,17 +32,8 @@ body {
   --font-bold: 700;       
   --font-extrabold: 800;
   --font-black: 900;
-  /* font family */
-  --inter: "Inter", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-[class*="container"] {
-  width: 88.83%;
-  max-width: 1536px;
-  margin: 0 auto;
-  background-color: #f1f1f1;
 }
 body {
-  font-family: var(--inter);
   margin: 0;
   position: relative;
   line-height: 1;
@@ -99,7 +91,8 @@ summary,
 time,
 mark,
 audio,
-video {
+video,
+button {
   margin: 0;
   padding: 0;
   border: 0;
@@ -138,6 +131,43 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+body {
+    background-color: var(--gray-light);
+    color: var(--black);
+    font-family: 'ClarityCity',sans-serif;
+}
+[class*="container"] {
+  width: 88.83%;
+  max-width: 1536px;
+  margin: 0 auto;
+}
+[class*="button--lg"] {
+    padding: 1.25rem 2rem;
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    border-radius: 10px;
+}
+[class*="button--base"] {
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 500 !important;
+    border-radius: 10px;
+}
+[class*="primary-button"] {
+    background-color: var(--main);
+    color: var(--white);
+    border: 2px solid var(--main);
+}
+[class*="secondary-button"] {
+    background-color: var(--white);
+    color: var(--black);
+    border: 2px solid var(--main);
+}
+[class*="dark-button"] {
+    background-color: var(--dark);
+    color: var(--white);
+    border: 2px solid var(--dark);
 }
 @media screen and (max-width: 1024px) {
 }

@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f1f1f1;
+    background-color: var(--gray-extra-light);
 }
 
 /* Hero Section */
@@ -14,18 +14,19 @@
 }
 
 .hero__content h1 {
-    font-size: 4.063rem;
+    font-size: var(--text-3xl);
     margin-bottom: 1rem;
-    font-weight: 700;
+    font-weight: var(--font-bold);
+    color: var(--dark);
 }
 
 .hero__content p {
     width: 50%;
     margin: 0 auto;
     line-height: 25px;
-    font-size: 1.125rem;
+    font-size: var(--text-base);
     margin-bottom: 1rem;
-    font-weight: 400;
+    font-weight: var(--font-regular);
 }
 
 .collaborators {
@@ -44,8 +45,8 @@
 
 
 .collaborators__text p {
-    font-size: 1.125rem;
-    font-weight: 400;
+    font-size: var(--text-base);
+    font-weight: var(--font-regular);
 }
 
 .collaborator__logos {
@@ -66,18 +67,27 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 4rem;
+    padding: 2rem;
     gap: 2rem;
-    flex-wrap: wrap;
 }
 
 .cta__hero__left,
 .cta__hero__right {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
     gap: 2rem;
+    overflow: hidden; /* Hide overflow items */
+    max-height: 500px; /* Adjust height as needed */
+}
+
+.cta__hero__left__container,
+.cta__hero__right__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative; 
 }
 
 .cta__hero__list {
@@ -89,8 +99,6 @@
     color: #383838;
     cursor: pointer;
     transition: all 0.3s ease;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-
 }
 
 .cta__hero__list p {
@@ -98,4 +106,34 @@
     font-weight: 800;
     line-height: 25px;
     background-color: transparent;
+}
+
+.chevron-up,
+.chevron-down {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.chevron-up {
+    border-bottom: 20px solid var(--main);
+    margin: 5px 0; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.chevron-down {
+    border-top: 20px solid var(--main); 
+    margin: 5px 0; 
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.chevron-up:hover {
+    transform: translateY(-5px); 
+}
+
+.chevron-down:hover {
+    transform: translateY(5px); 
 }
