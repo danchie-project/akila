@@ -1,11 +1,98 @@
 /* Theme Name: Akila */
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
 }
-html {
-    scroll-behavior: smooth;
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
 }
-
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-ExtraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-ExtraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-Italic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ClarityCity';
+    src: url('assets/fonts/ClarityCity/ClarityCity-ExtraBoldItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
