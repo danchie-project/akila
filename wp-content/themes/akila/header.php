@@ -134,8 +134,3 @@ $htmlLang = $language === 'zh' ? 'lang="cn"' : 'lang="en"';
             </div> -->
         </div>
     </header>
-
-    <?php wp_footer(); ?>
-</body>
-
-</html>
