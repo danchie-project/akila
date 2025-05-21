@@ -217,3 +217,9 @@
     height: auto;
     object-fit: contain;
 }
+
+/* Features Section */
+section.features {
+    height: 100vh;
+    background-image: var(--bg-gradient);
+}
