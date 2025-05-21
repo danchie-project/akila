@@ -3,40 +3,35 @@ body {
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
 /* General Header Styles */
 #header {
-    background-color: #fff;
     color: #1a1a1a;
-    padding: 2rem 0;
+    padding-top: 2rem;
+    position: fixed;
+    width: 100%;
 }
-
 /* Header Container */
 .header__container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    max-width: 1500px;
-    margin: 0 auto;
-    padding: 0 1rem;
+    padding: 1.25rem 2.5rem;
+    background-color: var(--white);
+    border-radius: 2.25rem;
 }
-
 /* Logo Styles */
 .logo__branding {
     text-align: left;
 }
-
 .logo__image {
-    max-width: 185px;
-    height: auto;
+    max-height: 48px;
+    min-height: 40px;
 }
-
 /* Navigation Styles */
 .nav__menu {
     text-align: center;
     width: 50%;
 }
-
 .nav__menu ul {
     list-style: none;
     padding: 0;
@@ -47,12 +42,10 @@ body {
     font-weight: 400;
     position: relative; /* Position for dropdown */
 }
-
 .nav__menu li {
     margin: 0 1rem;
     position: relative; /* Position for dropdown */
 }
-
 .nav__menu a {
     color: #1a1a1a;
     text-decoration: none;
@@ -60,11 +53,9 @@ body {
     display: block;
     transition: background-color 0.3s ease;
 }
-
 .nav__menu a:hover {
     color: #0fae3c;
 }
-
 /* Dropdown Styles */
 .nav__menu .dropdown {
     display: none; /* Hide dropdown by default */
@@ -75,41 +66,33 @@ body {
     margin-top: 0.5rem; /* Space between menu item and dropdown */
     padding: 0; /* Reset padding for dropdown */
 }
-
 .nav__menu li:hover .dropdown {
     display: block; /* Show dropdown on hover */
 }
-
 .nav__menu .dropdown li {
     width: 150px; /* Width of dropdown items */
 }
-
 .nav__menu .dropdown a {
     padding: 10px 15px; /* Padding for dropdown items */
     color: #1a1a1a;
     white-space: nowrap; /* Prevent text wrapping */
 }
-
 .nav__menu .dropdown a:hover {
     background-color: #f0f0f0; /* Highlight on hover */
 }
-
 /* Arrow Styles */
 .arrow {
     font-size: 0.8em; /* Smaller size for the arrow */
     margin-left: 5px; /* Space between text and arrow */
     transition: transform 0.3s ease; /* Smooth transition */
 }
-
 .nav__menu li:hover .arrow {
     transform: rotate(180deg); /* Rotate arrow on hover */
 }
-
 .header__buttons {
     display: flex;
     gap: 1rem;
 }
-
 .header__btn__request {
     border: none;
     background-color: #11D348;
