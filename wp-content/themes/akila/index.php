@@ -21,25 +21,26 @@
                         </div>
                     </div>
                 </div>
-            </section>
 
-            <!-- CTA HERO -->
-            <section class="cta__hero__container">
-                <div class="cta__hero__content">
-                    <div class="cta__hero__left__container">
-                        <div class="chevron-up"></div>
-                        <div class="cta__hero__left" id="ctaHeroLeft"></div>
-                        <div class="chevron-down"></div>
+
+                <!-- CTA HERO -->
+                <section class="cta__hero__container">
+                    <div class="cta__hero__content">
+                        <div class="cta__hero__left__container">
+                            <div class="chevron-up"></div>
+                            <div class="cta__hero__left" id="ctaHeroLeft"></div>
+                            <div class="chevron-down"></div>
+                        </div>
+                        <div class="cta__hero__right__container">
+                            <div class="chevron-up"></div>
+                            <div class="cta__hero__right" id="ctaHeroRight"></div>
+                            <div class="chevron-down"></div>
+                        </div>
+                        <div id="imageContainer" style="display:none; text-align: center; margin-top: 20px;">
+                            <img src="" alt="Displayed Image" id="displayedImage" />
+                        </div>
                     </div>
-                    <div class="cta__hero__right__container">
-                        <div class="chevron-up"></div>
-                        <div class="cta__hero__right" id="ctaHeroRight"></div>
-                        <div class="chevron-down"></div>
-                    </div>
-                    <div id="imageContainer" style="display:none; text-align: center; margin-top: 20px;">
-                        <img src="" alt="Displayed Image" id="displayedImage" />
-                    </div>
-                </div>
+                </section>
             </section>
 
         </main>
