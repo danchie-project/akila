@@ -4,18 +4,20 @@
         <?php get_header(); ?>
         <!-- Hero Section -->
         <main>
-            <section class="hero__container">
-                <div class="hero__content">
-                    <h1>Building intelligence unlock</h1>
-                    <p>Akila is a digital twin data platform that centralizes and visualizes all data from your buildings, from one site up to an entire global property portfolio.</p>
-                    <div class="collaborators">
-                        <div class="collaborators__text">
-                            <p>Strategig Collaborators</p>
-                        </div>
-                        <div class="collaborator__logos">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nvidia.svg" alt="Partner 1" loading="lazy">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/deloite.svg" alt="Partner 2" loading="lazy">
-                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/world.svg" alt="Partner 3" loading="lazy">
+            <section class="hero">
+                <div class="hero__container">
+                    <div class="hero__content">
+                        <h1>Building intelligence unlock</h1>
+                        <p>Akila is a digital twin data platform that centralizes and visualizes all data from your buildings, from one site up to an entire global property portfolio.</p>
+                        <div class="collaborators">
+                            <div class="collaborators__text">
+                                <p>Strategig Collaborators</p>
+                            </div>
+                            <div class="collaborator__logos">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/nvidia.svg" alt="Partner 1" loading="lazy">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/deloite.svg" alt="Partner 2" loading="lazy">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/world.svg" alt="Partner 3" loading="lazy">
+                            </div>
                         </div>
                     </div>
                 </div>

@@ -1,6 +1,7 @@
 <?php
 function my_theme_enqueue_styles()
 {
+    wp_enqueue_style('my-main-style', get_template_directory_uri() . '/css/main.css');
     wp_enqueue_style('my-global-style', get_template_directory_uri() . '/css/global.css');
 }
 add_action('wp_enqueue_scripts', 'my_theme_enqueue_styles');
