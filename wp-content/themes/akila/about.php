@@ -1,3 +1,8 @@
+<?php 
+/*
+Template Name: About
+*/
+?>
 <?php get_header() ?>
 
 <section>
