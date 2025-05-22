@@ -64,7 +64,9 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
                                 </div>
                                 <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
+                                    <li>
+                                        <div class="circle"></div>Single source of truth
+                                    </li>
                                     <li>Global analytics</li>
                                     <li>Carbon tracking</li>
                                 </ul>
@@ -75,7 +77,9 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
                                 </div>
                                 <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
+                                    <li>
+                                        <div class="circle"></div>Single source of truth
+                                    </li>
                                     <li>Global analytics</li>
                                     <li>Carbon tracking</li>
                                 </ul>
@@ -86,7 +90,9 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
                                 </div>
                                 <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
+                                    <li>
+                                        <div class="circle"></div>Single source of truth
+                                    </li>
                                     <li>Global analytics</li>
                                     <li>Carbon tracking</li>
                                 </ul>
@@ -97,7 +103,9 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
                                 </div>
                                 <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
+                                    <li>
+                                        <div class="circle"></div>Single source of truth
+                                    </li>
                                     <li>Global analytics</li>
                                     <li>Carbon tracking</li>
                                 </ul>
@@ -109,11 +117,32 @@
             </section>
 
             <section class="ai-edge">
-
+                <div class="ai-edge__container-sm">
+                    <div class="ai-edge__headline">
+                        <h2>AI edge</h2>
+                        <div class="ai-edge__headline--description">
+                            <h3>Building cognition</h3>
+                            <p>Akila is a comprehensive digital twin data platform engineered to empower portfolio managers with an unparalleled level of control and insight over their assets. By integrating real-time data, smart building systems.</p>
+                        </div>
+                    </div>
+                    <div class="ai-edge__sliders">
+                        <div class="sliders__wrapper">
+                            <div class="swiper-wrapper">
+                                <div class="slide swiper-slide">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.png" alt="">
+                                </div>
+                                <div class="slide swiper-slide">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-2.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
         </main>
         </body>
 
 
+        <script src="<?php echo get_template_directory_uri(); ?>/assets/swiper/swiper-bundle.min.js"></script>
         <script src="<?php echo get_template_directory_uri(); ?>/js/CTAHeroList.js"></script>

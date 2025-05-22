@@ -154,3 +154,15 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
+
+// AI-EDGE
+document.addEventListener("DOMContentLoaded", function () {
+  const swiper = new Swiper('.sliders__wrapper', {
+    loop: true,
+    slidesPerView: 1.5,
+    spaceBetween: 40,
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+});
