@@ -92,3 +92,65 @@ document.querySelector('.cta__hero__right__container .chevron-up').addEventListe
 document.querySelector('.cta__hero__right__container .chevron-down').addEventListener('click', () => {
     scrollList('ctaHeroRight', 'down'); // Scroll down for right container
 });
+
+// Features
+document.addEventListener("DOMContentLoaded", function () {
+  const items = document.querySelectorAll(".features__item");
+  
+  const firstItem = items[0];
+  if (firstItem) {
+    const firstContent = firstItem.querySelector("ul");
+    firstItem.classList.add("active");
+    firstContent.style.display = "flex";
+    firstContent.style.maxHeight = firstContent.scrollHeight + "px";
+    firstContent.style.opacity = "1";
+  }
+
+  items.forEach(item => {
+    const headline = item.querySelector(".item__headline");
+    const content = item.querySelector("ul");
+
+    // Set initial state
+    if (!item.classList.contains("active")) {
+      content.style.display = "none";
+    }
+
+    headline.addEventListener("click", () => {
+      const isActive = item.classList.contains("active");
+
+      // Collapse all other items
+      items.forEach(i => {
+        const desc = i.querySelector("ul");
+        if (i !== item && i.classList.contains("active")) {
+          i.classList.remove("active");
+
+          // Animate out
+          desc.style.maxHeight = desc.scrollHeight + "px"; // ensure correct height
+          requestAnimationFrame(() => {
+            desc.style.maxHeight = "0px";
+            desc.style.opacity = "0";
+          });
+
+          // Set display: none after animation
+          setTimeout(() => {
+            desc.style.display = "none";
+          }, 400); // match your CSS transition duration
+        }
+      });
+
+      // Toggle clicked item
+      if (!isActive) {
+        item.classList.add("active");
+
+        content.style.display = "flex"; // or block, depending on your layout
+        content.style.opacity = "0";
+        content.style.maxHeight = "0px";
+
+        requestAnimationFrame(() => {
+          content.style.maxHeight = content.scrollHeight + "px";
+          content.style.opacity = "1";
+        });
+      }
+    });
+  });
+});
