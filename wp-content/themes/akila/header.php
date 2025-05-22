@@ -11,6 +11,7 @@ $htmlLang = $language === 'zh' ? 'lang="cn"' : 'lang="en"';
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/swiper/swiper-bundle.min.css">
     <?php wp_head(); ?>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
