@@ -15,14 +15,17 @@ body {
   --text-3xl: clamp(32px, 3.6vw, 70px);
   /* colors */
   --cream: #f6f1e9;
-  --black: #1a1c20;
+  --black: #111B3D;
   --dark: #1E2856;
   --main: #385AEA;
+  --blue: #226DFF;
   --gray-light: #c5c5c5;
   --gray-extra-light: #f3f0f2;
   --gray: #898989;
   --white: #ffffff;
   --white-dark: #f8f8f8;
+  /* border color */
+  --border-blue: #226DFF4D;
   /* background gradient */
   --bg-gradient: linear-gradient(to left, rgba(89,239,239,0.1) 0%, rgba(34,109,255,0.1) 42%, rgba(56,90,234,0.1) 94%);
   /* font weight */
@@ -147,7 +150,11 @@ section{
   max-width: 1536px;
   margin: 0 auto;
 }
-
+[class*="container-sm"] {
+  width: 76%;
+  max-width: 1536px;
+  margin: 0 auto;
+}
 [class*="button--lg"] {
     padding: 1.25rem 2rem;
     font-size: 1.5rem;
@@ -174,6 +181,11 @@ section{
     background-color: var(--dark);
     color: var(--white);
     border: 2px solid var(--dark);
+}
+[class*="light-button"] {
+    background-color: var(--white);
+    color: var(--dark);
+    border: 2px solid var(--white);
 }
 @media screen and (max-width: 1024px) {
 }
