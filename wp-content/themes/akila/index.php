@@ -152,18 +152,6 @@
                             <p>Akila Chief of staff</p>
                         </div>
                     </div>
-                    <div class="quote__container-sm">
-                        <div class="quote__content">
-                            <div class="quote__image">
-                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/quote.png" alt="quote" loading="lazy">
-                            </div>
-                            <h2>Whether you are responsible for a single building or a global portfolio, Akila delivers value for stakeholders at every level</h2>
-                        </div>
-                        <div class="quote__author">
-                            <h3>Jean Baudrillard</h3>
-                            <p>Akila Chief of staff</p>
-                        </div>
-                    </div>
                 </section>
 
                 <section class="features">
@@ -236,36 +224,6 @@
                 </section>
 
                 <section class="ai-edge">
-                    <div class="ai-edge__container-sm">
-                        <div class="ai-edge__headline">
-                            <h2>AI edge</h2>
-                            <div class="ai-edge__headline--description">
-                                <h3>Building cognition</h3>
-                                <p>Akila is a comprehensive digital twin data platform engineered to empower portfolio managers with an unparalleled level of control and insight over their assets. By integrating real-time data, smart building systems.</p>
-                            </div>
-                        </div>
-                        <div class="ai-edge__sliders">
-                            <div class="sliders__wrapper swiper">
-                                <div class="swiper-wrapper">
-                                    <div class="slide swiper-slide">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.png" alt="">
-                                    </div>
-                                    <div class="slide swiper-slide">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-2.png" alt="">
-                                    </div>
-                                    <div class="slide swiper-slide">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.png" alt="">
-                                    </div>
-                                    <div class="slide swiper-slide">
-                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-2.png" alt="">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="sliders__wrapper" style="background-color: #fff;">
-                        <div class="swiper-pagination"></div>
-                    </div>
                     <div class="ai-edge__container-sm">
                         <div class="ai-edge__headline">
                             <h2>AI edge</h2>
