@@ -1,4 +1,26 @@
 <?php
+function setup_about_page_template() {
+    // Check if the "About" page exists
+    $about_page = get_page_by_path('about');
+
+    // If the "About" page does not exist, create it
+    if (!$about_page) {
+        $about_page_id = wp_insert_post([
+            'post_title'   => 'About',
+            'post_content' => 'This is the About page content. Update this content as needed.',
+            'post_status'  => 'publish',
+            'post_type'    => 'page',
+        ]);
+    } else {
+        $about_page_id = $about_page->ID;
+    }
+
+    // Assign the custom template to the "About" page
+    if ($about_page_id) {
+        update_post_meta($about_page_id, '_wp_page_template', 'about.php');
+    }
+}
+add_action('after_setup_theme', 'setup_about_page_template');
 function my_theme_enqueue_styles()
 {
     wp_enqueue_style('my-main-style', get_template_directory_uri() . '/css/main.css');
