@@ -5,6 +5,7 @@ license.txt
 readme.html
 wp-*.php
 xmlrpc.php
+.htaccess
 
 # wp-content uploads and cache
 wp-content/uploads/
