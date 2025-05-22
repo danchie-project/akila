@@ -137,8 +137,20 @@
                         </div>
                     </div>
                 </section>
+                <!-- quote -->
                 <section class="quote">
-
+                    <div class="quote__container-sm">
+                        <div class="quote__content">
+                            <div class="quote__image">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/quote.png" alt="quote" loading="lazy">
+                            </div>
+                            <h2>Whether you are responsible for a single building or a global portfolio, Akila delivers value for stakeholders at every level</h2>
+                        </div>
+                        <div class="quote__author">
+                            <h3>Jean Baudrillard</h3>
+                            <p>Akila Chief of staff</p>
+                        </div>
+                    </div>
                 </section>
 
                 <section class="features">
