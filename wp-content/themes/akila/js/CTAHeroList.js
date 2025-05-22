@@ -1,14 +1,14 @@
 // Object mapping items to their respective images
 const images = {
-    'R&D center': '<?php echo get_template_directory_uri(); ?>/assets/images/card1.png',
-    'Logistic Hub': '<?php echo get_template_directory_uri(); ?>/assets/images/card2.png',
-    'Factory A': '<?php echo get_template_directory_uri(); ?>/assets/images/card3.png',
-    'Factory B': '<?php echo get_template_directory_uri(); ?>/assets/images/card4.png',
-    'Monitoring': '<?php echo get_template_directory_uri(); ?>/assets/images/card5.png',
-    'HVAC Optimization': '<?php echo get_template_directory_uri(); ?>/assets/images/card6.png',
-    'Portfolio Analytics': '<?php echo get_template_directory_uri(); ?>/assets/images/card7.png',
-    'Predictive Maintenance': '<?php echo get_template_directory_uri(); ?>/assets/images/card8.png',
-    'System Automation': '<?php echo get_template_directory_uri(); ?>/assets/images/card9.png'
+    'R&D center': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'Logistic Hub': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'Factory A': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'Factory B': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'Monitoring': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'HVAC Optimization': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'Portfolio Analytics': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'Predictive Maintenance': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'System Automation': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg'
 };
 
 // Array of left section items (4 max)
@@ -16,7 +16,7 @@ const leftItems = [
     'R&D center',
     'Logistic Hub',
     'Factory A',
-    'Factory B',
+    'Factory B'
 ];
 
 // Array of right section items (6 max)

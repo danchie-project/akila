@@ -147,6 +147,7 @@ section{
   max-width: 1536px;
   margin: 0 auto;
 }
+
 [class*="button--lg"] {
     padding: 1.25rem 2rem;
     font-size: 1.5rem;

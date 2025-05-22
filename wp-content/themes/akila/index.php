@@ -36,13 +36,70 @@
                             <div class="cta__hero__right" id="ctaHeroRight"></div>
                             <div class="chevron-down"></div>
                         </div>
-                        <div id="imageContainer" style="display:none; text-align: center; margin-top: 20px;">
+                        <div id="imageContainer" class="image__container">
                             <img src="" alt="Displayed Image" id="displayedImage" />
                         </div>
                     </div>
                 </section>
-            </section>
 
+                <!-- Take Control -->
+                <section class="take__control_portofolio">
+                    <div class="take__control__text">
+                        <h2>Take control of your portfolio</h2>
+                        <p>9/10 asset owners do not have the data they need</p>
+                    </div>
+                    <div class="take__control__buttons">
+                        <button class="secondary-button--base">Learn why</button>
+                        <button class="primary-button--base">Request a demo</button>
+                    </div>
+                </section>
+
+                <!-- Calculation -->
+                <section class="calculation__container">
+                    <div class="calculation__content">
+                        <div class="calculation__text">
+                            <h2>20-30%</h2>
+                            <p>Energy savings</p>
+                        </div>
+                        <div class="calculation__text">
+                            <h2>3 months</h2>
+                            <p>To full implementation</p>
+                        </div>
+                        <div class="calculation__text">
+                            <h2>12 months </h2>
+                            <p>avg ROI</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Akila Suite -->
+                <section class="akila__suite__container">
+                    <div class="akila__suite__content">
+                        <div class="akila__suite__text">
+                            <h3>Akila Suite</h3>
+                            <h2>Leading automation with Akila</h2>
+                        </div>
+                        <p>Akila is a comprehensive digital twin data platform engineered to empower portfolio managers with an unparalleled level of control and insight over their assets. By integrating real-time data, smart building systems.</p>
+                    </div>
+                    <div class="akila__suite__card__content">
+                        <div class="akila__suite__card__list">
+                            <div class="akila__suite__card__canvas">
+                                <div class="akila__suite__images__card">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/crop1.png" alt="icon" loading="lazy">
+                                </div>
+                                <div class="akila__suite__card__text">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital.png" alt="icon" loading="lazy">
+                                    <h2>Digitalized</h2>
+                                    <p>Take your building to the cloud, with centralized data accessible from anywhere</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    </div>
+
+                </section>
+
+            </section>
         </main>
         </body>
 

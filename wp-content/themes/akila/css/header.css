@@ -9,6 +9,7 @@ body {
     padding-top: 2rem;
     position: fixed;
     width: 100%;
+        z-index: 9999;
 }
 /* Header Container */
 .header__container {
@@ -18,6 +19,7 @@ body {
     padding: 1.25rem 2.5rem;
     background-color: var(--white);
     border-radius: 2.25rem;
+
 }
 /* Logo Styles */
 .logo__branding {
