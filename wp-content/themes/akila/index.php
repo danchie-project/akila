@@ -223,9 +223,41 @@
                 </section>
 
                 <section class="ai-edge">
-
+                    <div class="ai-edge__container-sm">
+                        <div class="ai-edge__headline">
+                            <h2>AI edge</h2>
+                            <div class="ai-edge__headline--description">
+                                <h3>Building cognition</h3>
+                                <p>Akila is a comprehensive digital twin data platform engineered to empower portfolio managers with an unparalleled level of control and insight over their assets. By integrating real-time data, smart building systems.</p>
+                            </div>
+                        </div>
+                        <div class="ai-edge__sliders">
+                            <div class="sliders__wrapper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="slide swiper-slide">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.png" alt="">
+                                    </div>
+                                    <div class="slide swiper-slide">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-2.png" alt="">
+                                    </div>
+                                    <div class="slide swiper-slide">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-1.png" alt="">
+                                    </div>
+                                    <div class="slide swiper-slide">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/slider-2.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sliders__wrapper" style="background-color: #fff;">
+                        <div class="swiper-pagination"></div>
+                    </div>
                 </section>
         </main>
+
+
+
         <?php
-        // Footer   
-        get_footer(); ?>
+        get_footer();
+        ?>

@@ -1,4 +1,9 @@
-<?php get_header(); ?>
+<?php 
+/*
+Template Name: About
+*/
+?>
+<?php get_header() ?>
 
 <section>
     <div class="about__container">
