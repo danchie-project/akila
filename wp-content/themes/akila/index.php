@@ -225,9 +225,7 @@
                 <section class="ai-edge">
 
                 </section>
-
         </main>
-        </body>
-
-
-        <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+        <?php
+        // Footer   
+        get_footer(); ?>
