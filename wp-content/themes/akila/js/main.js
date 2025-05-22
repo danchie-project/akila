@@ -1,6 +1,6 @@
 // Object mapping items to their respective images
 const images = {
-    'R&D center': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
+    'R&D center': 'http://localhost/akila/wp-content/uploads/2025/05/crop2.png',
     'Logistic Hub': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
     'Factory A': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',
     'Factory B': 'http://localhost/akila/wp-content/uploads/2025/05/card2-scaled.jpg',

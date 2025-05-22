@@ -55,7 +55,7 @@
                 </section>
 
                 <!-- Calculation -->
-                <section class="calculation__container">
+                <section class="calculation__container-sm">
                     <div class="calculation__content">
                         <div class="calculation__text">
                             <h2>20-30%</h2>
@@ -73,7 +73,7 @@
                 </section>
 
                 <!-- Akila Suite -->
-                <section class="akila__suite__container">
+                <section class="akila__suite__container-sm">
                     <div class="akila__suite__content">
                         <div class="akila__suite__text">
                             <h3>Akila Suite</h3>
@@ -88,89 +88,134 @@
                                     <img src="<?php echo get_template_directory_uri(); ?>/assets/images/crop1.png" alt="icon" loading="lazy">
                                 </div>
                                 <div class="akila__suite__card__text">
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital.png" alt="icon" loading="lazy">
-                                    <h2>Digitalized</h2>
+                                    <div class="akila__suite__card__text__icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/digital.png" alt="icon" loading="lazy">
+                                        <h2>Digitalized</h2>
+                                    </div>
                                     <p>Take your building to the cloud, with centralized data accessible from anywhere</p>
                                 </div>
                             </div>
+                            <div class="akila__suite__card__canvas">
+                                <div class="akila__suite__card__text__reverse">
+                                    <div class="akila__suite__card__text__icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/analyz.png" alt="icon" loading="lazy">
+                                        <h2>Analyzed</h2>
+                                    </div>
+                                    <p>See core performance metrics in a variety of analytical tools and KPI dashboards</p>
+                                </div>
+                                <div class="akila__suite__images__card__reverse">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/crop22.png" alt="icon" loading="lazy">
+                                </div>
+                            </div>
+                            <div class="akila__suite__card__canvas">
+                                <div class="akila__suite__images__card">
+                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/crop33.jpg" alt="icon" loading="lazy">
+                                </div>
+                                <div class="akila__suite__card__text">
+                                    <div class="akila__suite__card__text__icon">
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/simulated.png" alt="icon" loading="lazy">
+                                        <h2>Simulated & automation</h2>
+                                    </div>
+                                    <p>Leverage work order management tools and AI-powered HVAC optimization to drive results</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     </div>
+                </section>
+                <!-- Akila Logo collaborators -->
+                <section class="akila__logo__container-sm">
+                    <div class="akila__logo__content__collaborators">
+                        <div class="akila__logo__list__collaborators">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoA1.png" alt="icon" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoA2.png" alt="icon" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoA3.png" alt="icon" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoA4.png" alt="icon" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoA6.png" alt="icon" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoA7.png" alt="icon" loading="lazy">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/logoA8.png" alt="icon" loading="lazy">
+                        </div>
+                    </div>
+                </section>
+                <section class="quote">
 
                 </section>
 
-            </section>
-            <section class="quote">
-
-            </section>
-
-            <section class="features">
-                <div class="features__container-sm">
-                    <div class="features__headline">
-                        <h2>Akila Features</h2>
-                        <div class="features__headline--description">
-                            <h3>Build a solution that’s truly your own</h3>
-                            <p>Akila is a comprehensive digital twin data platform engineered to empower portfolio managers with an unparalleled level of control and insight over their assets. By integrating real-time data, smart building systems.</p>
-                        </div>
-                    </div>
-                    <div class="features__content">
-                        <div class="features__items">
-                            <div class="features__item">
-                                <div class="item__headline">
-                                    <h4>Porftolio management</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
-                                </div>
-                                <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
-                                    <li>Global analytics</li>
-                                    <li>Carbon tracking</li>
-                                </ul>
-                            </div>
-                            <div class="features__item">
-                                <div class="item__headline">
-                                    <h4>Energy management</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
-                                </div>
-                                <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
-                                    <li>Global analytics</li>
-                                    <li>Carbon tracking</li>
-                                </ul>
-                            </div>
-                            <div class="features__item">
-                                <div class="item__headline">
-                                    <h4>Condition-based mnt</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
-                                </div>
-                                <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
-                                    <li>Global analytics</li>
-                                    <li>Carbon tracking</li>
-                                </ul>
-                            </div>
-                            <div class="features__item">
-                                <div class="item__headline">
-                                    <h4>API Ecosystem</h4>
-                                    <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
-                                </div>
-                                <ul class="item__description">
-                                    <li><div class="circle"></div>Single source of truth</li>
-                                    <li>Global analytics</li>
-                                    <li>Carbon tracking</li>
-                                </ul>
+                <section class="features">
+                    <div class="features__container-sm">
+                        <div class="features__headline">
+                            <h2>Akila Features</h2>
+                            <div class="features__headline--description">
+                                <h3>Build a solution that’s truly your own</h3>
+                                <p>Akila is a comprehensive digital twin data platform engineered to empower portfolio managers with an unparalleled level of control and insight over their assets. By integrating real-time data, smart building systems.</p>
                             </div>
                         </div>
-                        <div class="features__image"></div>
+                        <div class="features__content">
+                            <div class="features__items">
+                                <div class="features__item">
+                                    <div class="item__headline">
+                                        <h4>Porftolio management</h4>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
+                                    </div>
+                                    <ul class="item__description">
+                                        <li>
+                                            <div class="circle"></div>Single source of truth
+                                        </li>
+                                        <li>Global analytics</li>
+                                        <li>Carbon tracking</li>
+                                    </ul>
+                                </div>
+                                <div class="features__item">
+                                    <div class="item__headline">
+                                        <h4>Energy management</h4>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
+                                    </div>
+                                    <ul class="item__description">
+                                        <li>
+                                            <div class="circle"></div>Single source of truth
+                                        </li>
+                                        <li>Global analytics</li>
+                                        <li>Carbon tracking</li>
+                                    </ul>
+                                </div>
+                                <div class="features__item">
+                                    <div class="item__headline">
+                                        <h4>Condition-based mnt</h4>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
+                                    </div>
+                                    <ul class="item__description">
+                                        <li>
+                                            <div class="circle"></div>Single source of truth
+                                        </li>
+                                        <li>Global analytics</li>
+                                        <li>Carbon tracking</li>
+                                    </ul>
+                                </div>
+                                <div class="features__item">
+                                    <div class="item__headline">
+                                        <h4>API Ecosystem</h4>
+                                        <img src="<?php echo get_template_directory_uri(); ?>/assets/icons/chev-down.png" alt=">" srcset="">
+                                    </div>
+                                    <ul class="item__description">
+                                        <li>
+                                            <div class="circle"></div>Single source of truth
+                                        </li>
+                                        <li>Global analytics</li>
+                                        <li>Carbon tracking</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="features__image"></div>
+                        </div>
                     </div>
-                </div>
-            </section>
+                </section>
 
-            <section class="ai-edge">
+                <section class="ai-edge">
 
-            </section>
+                </section>
 
         </main>
         </body>
 
 
-        <script src="<?php echo get_template_directory_uri(); ?>/js/CTAHeroList.js"></script>
+        <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
