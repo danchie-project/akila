@@ -591,15 +591,17 @@ section.ai-edge {
   width: 77%;
   position: relative;
   overflow: hidden;
-}
-
-.sliders__wrapper {
   background-color: var(--dark);
   padding: 1.25rem;
+  border-radius: 20px 0 0 20px;
+}
+.sliders__wrapper {
   width: 100%;
+  border-radius: 16px 0 0 16px;
 }
 .swiper-wrapper {
   height: fit-content;
+  width: stretch;
 }
 .slide {
   width: 60%; 
