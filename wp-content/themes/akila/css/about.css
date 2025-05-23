@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "ClarityCity", sans-serif;
+}
+
+/* About Hero Section*/
+.about__hero {
+  text-align: center;
+  padding: 13rem 4rem 4rem 4rem;
+  height: fit-content;
+}
+
+.about-hero__text {
+  text-align: center;
+}
+
+.about-hero__text p:first-child {
+  margin-bottom: 2rem;
+  color: #216cff;
+  line-height: 20px;
+  font-size: var(--text-lg);
+  font-weight: var(--font-medium);
+}
+
+.about-hero__text p:nth-child(2) {
+  margin-bottom: 2rem;
+  color: #000;
+  line-height: auto;
+  font-size: var(--text-3xl);
+  font-weight: var(--font-bold);
+}
+
+.about-hero__text p:last-child {
+  margin-bottom: 2rem;
+  color: #000;
+  margin: 0 auto;
+  width: 43%;
+  line-height: 25px;
+  font-size: var(--text-base);
+  font-weight: var(--font-light);
+}
+
+.about-hero__img img {
+  width: 77%;
+  height: auto;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Data driven */
+.about-data-driven__text {
+  text-align: center;
+  margin: 2rem auto 3.5rem auto;
+}
+
+.about-data-driven__text p {
+  color: var(--dark);
+  font-size: clamp(30px, 3vw, 50px);
+  font-weight: var(--font-bold);
+  margin-bottom: 1rem;
+}
+
+.about__calculation {
+  background-color: #f1f5fe;
+  text-align: center;
+  padding: 2.8rem;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.about__calculation h2 {
+  color: var(--main);
+  font-size: var(--text-2xl);
+  font-weight: var(--font-bold);
+  margin-bottom: 0.5rem;
+}
+
+.about__calculation p {
+  font-size: var(--text-md);
+  font-weight: var(--font-light);
+  line-height: 25px;
+}
+
+/* Qoutes */
+.about-quote {
+  background-color: var(--white);
+  padding: 4rem 0;
+  position: relative;
+}
+
+.about-quote__content {
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  position: relative;
+  z-index: 1;
+}
+
+.about-quote__content h2 {
+  font-size: clamp(30px, 3vw, 49px);
+  font-weight: var(--font-regular);
+  color: var(--dark);
+  margin: 3.5rem 0 1rem;
+  padding-left: 1rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+.about-quote__image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 10%;
+  z-index: 0;
+}
+
+.about-quote__image img {
+  width: 100%;
+  height: auto;
+}
