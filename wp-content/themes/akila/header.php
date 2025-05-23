@@ -73,7 +73,7 @@ $htmlLang = $language === 'zh' ? 'lang="cn"' : 'lang="en"';
                 </a>
             </div>
 
-            <nav id="site-navigation" class="nav__menu">
+            <!-- <nav id="site-navigation" class="nav__menu">
                 <ul>
                     <li>
                         <a href="#" class="dropdown-toggle" onclick="toggleDropdown(event, 'product-dropdown')">
@@ -111,10 +111,10 @@ $htmlLang = $language === 'zh' ? 'lang="cn"' : 'lang="en"';
                         </ul>
                     </li>
                 </ul>
-            </nav>
-            <div class="header__buttons">
+            </nav> -->
+            <!-- <div class="header__buttons">
                 <button class="header__dark-button--base">Request a demo</button>
-            </div>
+            </div> -->
 
             <!-- <div class="language__switcher">
                 <ul class="language__list">

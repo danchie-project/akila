@@ -16,7 +16,7 @@
     }
 
     .footer__top img {
-        width: 100%;
+        width: 50%;
         object-fit: cover;
         background-repeat: no-repeat;
         border-top-right-radius: 15px;
@@ -24,7 +24,7 @@
     }
 
     .footer__top__content {
-        padding: 0 0 0 5rem;
+        padding: 2rem 0 0 5rem;
         width: 50%;
     }
 
@@ -176,23 +176,61 @@
         text-decoration: none;
 
     }
+
+    @media (max-width: 640px) {
+        .footer__top {
+            flex-direction: column-reverse;
+            align-items: center;
+        }
+
+        .footer__top img {
+            width: 100%;
+            height: auto;
+            border-radius: 15px;
+        }
+
+        .footer__top__content {
+            width: 100%;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        .footer__main {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer__logo-section,
+        .footer__columns {
+            width: 100%;
+            text-align: center;
+        }
+
+        .footer__columns {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
 </style>
 
 <section class="footer">
     <div class="footer-container">
-        <div class="footer__top">
-            <div class="footer__top__content">
-                <div class="footer__heading">
-                    <h2>Stay ahead with Akila</h2>
-                    <p>Akila is a digital twin and platform that combines and visualizes all data from your builders. From one site up to an entire global property portfolio.</p>
+        <div class="footer-container-sm">
+            <div class="footer__top">
+                <div class="footer__top__content">
+                    <div class="footer__heading">
+                        <h2>Stay ahead with Akila</h2>
+                        <p>Akila is a digital twin and platform that combines and visualizes all data from your builders. From one site up to an entire global property portfolio.</p>
+                    </div>
+                    <div class="footer__cta">
+                        <input type="email" placeholder="Enter your email">
+                        <button class="primary-button--base">Request a demo</button>
+                    </div>
                 </div>
-                <div class="footer__cta">
-                    <input type="email" placeholder="Enter your email">
-                    <button class="primary-button--base">Request a demo</button>
-                </div>
+                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer.png" alt="quote" loading="lazy">
             </div>
-            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/footer.png" alt="quote" loading="lazy">
         </div>
+
         <div class="line"></div>
         <div class="footer__main">
             <div class="footer__logo-section">
@@ -270,9 +308,9 @@
 
 </section>
 
-        <!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/swiper/swiper-bundle.min.js"></script> -->
-        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-        <script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
+<!-- <script src="<?php echo get_template_directory_uri(); ?>/assets/swiper/swiper-bundle.min.js"></script> -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/js/main.js"></script>
 </body>
 
 </html>

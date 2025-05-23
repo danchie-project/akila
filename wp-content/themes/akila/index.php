@@ -37,12 +37,12 @@
                             <div class="chevron-down"></div>
                         </div>
                         <div id="imageContainer" class="image__container">
-                            <img src="" alt="Displayed Image" id="displayedImage" />
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/hero.png" alt=" Displayed Image" loading="lazy" id="displayedImage" />
                         </div>
                     </div>
-                </section>
+                </section
 
-                <!-- Take Control -->
+                    <!-- Take Control -->
                 <section class="take__control_portofolio">
                     <div class="take__control__text">
                         <h2>Take control of your portfolio</h2>
