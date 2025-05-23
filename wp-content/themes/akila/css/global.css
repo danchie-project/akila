@@ -153,12 +153,12 @@ section {
 }
 [class*="container"] {
   width: 88.83%;
-  max-width: 1536px;
+  max-width: 1593px;
   margin: 0 auto;
 }
 [class*="container-sm"] {
-  width: 76%;
-  max-width: 1536px;
+  width: 72%;
+  max-width: 1320px;
   margin: 0 auto;
 }
 [class*="button--lg"] {
