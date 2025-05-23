@@ -137,7 +137,7 @@
                         </div>
                     </div>
                 </section>
-                <!-- quote -->
+
                 <!-- quote -->
                 <section class="quote">
                     <div class="quote__container-sm">
