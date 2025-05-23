@@ -10,7 +10,7 @@ $htmlLang = $language === 'zh' ? 'lang="cn"' : 'lang="en"';
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/header.css">
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/layout.css">
     <!-- <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/assets/swiper/swiper-bundle.min.css"> -->
     <link
         rel="stylesheet"
@@ -96,8 +96,8 @@ $htmlLang = $language === 'zh' ? 'lang="cn"' : 'lang="en"';
                         </ul>
                     </li>
                     <li>
-                        <a href="<?php echo esc_url(site_url('/resource')); ?>">
-                            <?php echo ($language === 'zh') ? '资源' : 'Resource'; ?>
+                        <a href="<?php echo esc_url(get_permalink(get_page_by_path('about'))); ?>">
+                            <?php echo ($language === 'zh') ? '资源' : 'About'; ?>
                         </a>
                     </li>
                     <li>

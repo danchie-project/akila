@@ -419,7 +419,7 @@
             top: 0;
             left: 0;
             width: 10%;
-            z-index: 0; /* Places the image behind the text */
+            z-index: 0; 
             
         }
 
@@ -487,6 +487,7 @@ section.features {
     min-height: 85px;
     padding: 1.5rem;
     overflow: hidden;
+    cursor: pointer;
     cursor: pointer;
 }
 
@@ -560,6 +561,7 @@ section.features {
 section.ai-edge {
   height: fit-content;
   background-color: var(--white);
+  background-color: var(--white);
 }
 .ai-edge__container-sm {
   padding: 4.5rem 0;
@@ -588,10 +590,12 @@ section.ai-edge {
   margin-bottom: 1.62rem;
 }
 .ai-edge__sliders {
+.ai-edge__sliders {
   width: 77%;
   position: relative;
   overflow: hidden;
 }
+
 
 .sliders__wrapper {
   background-color: var(--dark);
@@ -600,7 +604,23 @@ section.ai-edge {
 }
 .swiper-wrapper {
   height: fit-content;
+  width: 100%;
 }
+.swiper-wrapper {
+  height: fit-content;
+}
+.slide {
+  width: 60%; 
+  height: fit-content;
+}
+
+.slide img {
+  width: 100%;
+  max-height: 422px;
+  height: auto;
+  object-fit: cover;
+}
+
 .slide {
   width: 60%; 
   height: fit-content;
