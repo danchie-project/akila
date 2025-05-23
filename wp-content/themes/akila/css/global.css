@@ -211,4 +211,9 @@ section {
     max-width: 640px;
     width: 96%;
   }
+  [class*="container-sm"] {
+  width: 80%;
+  max-width: 268px;
+  margin: 0 auto;
+}
 }

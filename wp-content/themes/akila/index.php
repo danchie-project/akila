@@ -55,7 +55,7 @@
                 </section>
 
                 <!-- Calculation -->
-                <section class="calculation__container-sm calculation__container">
+                <section class="calculation__container-sm">
                     <div class="calculation__content">
                         <div class="calculation__text">
                             <h2>20-30%</h2>
