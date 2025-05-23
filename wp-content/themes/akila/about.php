@@ -79,4 +79,52 @@ Template Name: About
 </section>
 
 
+<!-- Akila Platform -->
+<section>
+    <div class="akila-platform__container">
+        <div class="akila-platform__contents">
+            <div class="akila-platform__bg"></div>
+            <div class="akila-platform__wrapper">
+                <div class="akila-platform__img">
+                    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-page/akila-platform.png" alt="Akila Platform" loading="lazy">
+                </div>
+                <div class="akila-platform__text">
+                    <h2>Akila Platform</h2>
+                    <p class="akila-platform__sub-title">Our platform democratizes data & unlocks value to all users</p>
+                    <div class="akila-platform__lists">
+                        <div class="akila-platform__check">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-page/marker.png" alt="Akila Platform Check" loading="lazy">
+                            <p>Single source of truth for complex data</p>
+                        </div>
+                        <div class="akila-platform__check">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-page/marker.png" alt="Akila Platform Check 2" loading="lazy">
+                            <p>Global analytics & actionable insight</p>
+                        </div>
+                        <div class="akila-platform__check">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-page/marker.png" alt="Akila Platform Check 3" loading="lazy">
+                            <p>Growing base of agentic optimizations</p>
+                        </div>
+                        <div class="akila-platform__check">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/about-page/marker.png" alt="Akila Platform Check 4" loading="lazy">
+                            <p>Adaptive Ul per role</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+<!-- Where We Are -->
+<section>
+    .<div class="where-we-are__container-sm">
+        <p class="where-we-are__title">Where we are</p>
+        <div class="where-we-are__text">
+            <p>A platform & team built to scale</p>
+            <p>Akila operates across key cities around the world to stay close to our partners, clients, and the markets we serve. Wherever you are, Akila is ready to support your digital transformation journey.</p>
+        </div>
+
+</section>
+
 <?php get_footer(); ?>
